@@ -32,7 +32,7 @@ on:
   push:
     branches: [ "main" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "feature/New-PR-to-review" ]
   workflow_dispatch:
 
 permissions:
